@@ -10,5 +10,5 @@ HTML, CSS, JavaScript, React
 
 # **Getting Started**
 
-Just download and run
+Just download , type in the terminal npm start
 

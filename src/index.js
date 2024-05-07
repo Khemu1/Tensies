@@ -1,14 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import BigBox from "./Js/bigBox";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
-		<BigBox />
-	</React.StrictMode>
+  <React.StrictMode>
+    <BigBox />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
