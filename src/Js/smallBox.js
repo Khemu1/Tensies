@@ -1,6 +1,7 @@
 import React from "react";
 import Box from "./box";
 import { nanoid } from "nanoid";
+// here's how the values are handled
 function SmallBox() {
 	const [Randoms, setRandoms] = React.useState(gen());
 	const [Rolls, setRolls] = React.useState(0);
